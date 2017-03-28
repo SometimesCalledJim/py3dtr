@@ -1,5 +1,4 @@
 #by James Muir
-#andrew id: jmuir
 
 import math
 from math import sin
@@ -74,7 +73,7 @@ class vec4():
     def __repr__(self):
         return "vec4(%f  %f  %f  %f)" % (self.x,self.y,self.z,self.w)
 
-#quaternions, essentialy represent rotations around an axis
+#quaternions, represent a rotation around an axis
 class quat():
     def __init__(self,w=0,x=0,y=0,z=0):
         self.w = float(w)

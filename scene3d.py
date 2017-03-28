@@ -1,7 +1,5 @@
 #by James Muir
-#andrew id: jmuir
 
-#I wrote lib3d
 from lib3d import *
 
 #a structure, you can stick stuff in it

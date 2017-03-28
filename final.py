@@ -1,8 +1,5 @@
 #Proceduaraly Generated Terrain!
-#15-112 Final Project
-
 #by James Muir
-#anderw id: jmuir
 
 #test mode toggle
 test = False
