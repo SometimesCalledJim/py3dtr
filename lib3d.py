@@ -237,7 +237,7 @@ def vec3CrossProduct(vector1, vector2):
     #returns a vector
     x1,y1,z1 = vector1
     x2,y2,z2 = vector2
-    return vec3(y1*z2-z1*y2, z1*x2-x1*z2, x1*y2-y2*x2)
+    return vec3(y1*z2-z1*y2, z1*x2-x1*z2, x1*y2-y1*x2)
 
 #finds the angle between two vectors
 def findAngle(vector1, vector2):
