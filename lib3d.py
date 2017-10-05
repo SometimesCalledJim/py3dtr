@@ -52,7 +52,7 @@ class vec4():
         return iter((self.x,self.y,self.z,self.w))
     def __getitem__(self,index):
         return (self.x,self.y,self.z,self.w)[index]
-    def norm():
+    def norm(self):
         return math.sqrt(self.x**2 + self.y**2 + self.z **2 + self.w**2)
     def __add__(a,b):
         if isinstance(b,vec4):
