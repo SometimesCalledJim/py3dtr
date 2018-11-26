@@ -1,3 +1,6 @@
+[OLD: DO NOT USE]
+Warning: this project is no longer actively maintained, does not follow best practices, lacks proper testing, and may contain many bugs. Use at your own risk.
+
 This program proceduaraly generates 3d terrain, then displays it.
 It is written in Python and OpenGL.
 Lib3d is a library I wrote for matrix operations and 3d math and quaternions.
